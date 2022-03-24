@@ -62,7 +62,7 @@ document.getElementById("btn").addEventListener("click", function () {
       thead.append(tr1);
       tr1.append(th1, th2, th3, th4, th5);
 
-      for (let i = 0; i < 50; i++) {
+      for (let i = 0; i < data.length; i++) {
         let tr2 = document.createElement("tr");
 
         let td1 = document.createElement("td");
