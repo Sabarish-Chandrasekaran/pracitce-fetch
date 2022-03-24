@@ -33,7 +33,8 @@ document.getElementById("btn").addEventListener("click", function () {
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
-      let table = document.createElement("table");
+      console.log(data.length);
+        let table = document.createElement("table");
       table.id = "table";
 
       let thead = document.createElement("thead");
